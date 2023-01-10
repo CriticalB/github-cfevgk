@@ -1,0 +1,34 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.smart-scheduler {
+    width: 100%;
+    height: 800px;
+    --smart-scheduler-current-time-indicator-background: red; 
+    --smart-scheduler-timeline-header-all-day-cells-size: 0px;
+  
+  }
+  
+  .smart-scheduler .smart-scheduler-event .smart-scheduler-event-label {
+    white-space: normal !important;
+  }
+  
+  .smart-scheduler .smart-scheduler-legend .smart-scheduler-legend-res-item {
+    white-space: pre-wrap;
+  }
+  
+  .smart-scheduler-footer .smart-scheduler-legend .smart-scheduler-legend-item:not(:first-child) {
+    display: none;
+  }
+  
+  .smart-scheduler-footer .smart-scheduler-legend .smart-scheduler-legend-item .smart-scheduler-legend-res-label {
+    display: none;
+  }
+  
+  .smart-scheduler-event-button {
+    display: none !important;
+  }
